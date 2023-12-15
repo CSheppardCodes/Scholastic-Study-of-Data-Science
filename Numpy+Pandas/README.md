@@ -1,4 +1,4 @@
-# readme for numpy and pandas
+# Numpy+Pandas README
 
 ## Basic-Numpy
  - array operations, matrix handling, and basic calculations in NumPy.
@@ -41,6 +41,30 @@
  6. **Advanced Sorting:**
     - Applied Pandas' sort_values() with multiple columns for data organization.
 
+
+
+## Pandas-Titanic-Flights-Penguins
+1. **Titanic Dataset:**
+   - Read and inspect using `.info()`, `.head()`.
+  ![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/389b924c-dd75-4680-b5c7-5dc2dd4c7895)
+  
+
+2. **Data Visualization:**
+   - Create a histogram using seaborn's `.hist()` displaying age frequency.
+![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/52b3162a-6643-4ec4-8376-3b441bb9349c)
+
+3. **Grouping for Survival Analysis**
+   - Analyze survival counts using `.groupby()` on 'Pclass' and`.value_counts()` on 'Survived'.
+![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/500303ae-a529-4e8f-b6a9-e206fc1b0c6c)
+  
+6. **Airlines Delay:**
+   - Read and analyze arrival delays; handle missing data with `.dropna()`.
+
+7. **Pivot Table:**
+   - Utilize `pivot_table()` for in-depth analysis.
+
+8. **Seaborn Dataset:**
+   - Explore 'penguins' dataset for visualization with seaborn's functions.
 
 
 
