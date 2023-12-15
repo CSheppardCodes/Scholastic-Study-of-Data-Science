@@ -17,3 +17,29 @@
 
 
 
+
+
+## basicDF
+1. **Data Preparation:**
+   - Use NumPy & Pandas to represent a dataset with features 'x' and target variable 'y'.
+ 2. **Model Training:**
+    - Utilized Decision Tree Regressor from scikit-learn to train a regression model on the dataset.
+ 4. **Visualization:**
+    ![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/ef7805aa-5748-4605-af8a-65e72157d1e9)
+ 6. **Statistical Summary:**
+    - Generated descriptive statistics using df.describe() and df['y'].describe() to understand the dataset and target variable 'y'.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
