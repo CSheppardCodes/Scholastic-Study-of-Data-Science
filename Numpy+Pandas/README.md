@@ -31,6 +31,18 @@
 
 
 
+## Pandas
+1. **DataFrame Manipulation:**
+   - Constructed and manipulated DataFrames using Pandas and NumPy (pd.DataFrame, pd.Series, pd.read_csv).
+ 2. **Descriptive Statistics:**
+    - Employed Pandas functions (describe(), info(), mean(), sort_values()) for comprehensive data analysis.
+ 4. **Data Exploration:**
+    - Utilized Pandas' isin(), mean(), and isna().sum() for conditional filtering and checking null values.
+ 6. **Advanced Sorting:**
+    - Applied Pandas' sort_values() with multiple columns for data organization.
+
+
+
 
 
 
