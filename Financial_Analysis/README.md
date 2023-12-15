@@ -86,4 +86,4 @@
 ## Conclusion:
 
 ### Observation Result:
-- The presented data and analysis suggest that, in this scenario, the Buy and Hold strategy generally results in higher cumulative returns compared to active trading.
+- The Buy and Hold strategy resulted in higher cumulative returns compared to active trading. $9,500,257.78 vs $894,048.84
