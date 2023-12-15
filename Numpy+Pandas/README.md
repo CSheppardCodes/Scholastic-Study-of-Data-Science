@@ -47,27 +47,26 @@
 1. **Titanic Dataset:**
    - Read and inspect using `.info()`, `.head()`.
   ![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/389b924c-dd75-4680-b5c7-5dc2dd4c7895)
+   - Use seaborn's `.hist()` to display age frequency.
+![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/bddb4d70-2e8a-4905-9816-65f248b4add8)
+   - Utilize `pivot_table()` for in-depth analysis of males and females that survived, aggregate on count.
+![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/f323fb62-67e5-4890-a8a0-e5badba7f0d0)
   
-
-2. **Data Visualization:**
-   - Create a histogram using seaborn's `.hist()` displaying age frequency.
-![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/52b3162a-6643-4ec4-8376-3b441bb9349c)
-
-3. **Grouping for Survival Analysis**
-   - Analyze survival counts using `.groupby()` on 'Pclass' and`.value_counts()` on 'Survived'.
-![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/500303ae-a529-4e8f-b6a9-e206fc1b0c6c)
-  
-6. **Airlines Delay:**
+2. **Airlines Dataset:**
    - Read and analyze arrival delays; handle missing data with `.dropna()`.
+   - Find the top 5 airlines with the highest arrival delay using `flights.groupby('AIRLINE').mean(numeric_only=1)['ARRIVAL_DELAY'].sort_values(ascending=False).head(5)`.
+   ![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/f1080cba-0c17-40b0-9f2c-2aee9a815f2c)
 
-7. **Pivot Table:**
-   - Utilize `pivot_table()` for in-depth analysis.
+   - Find the top 5 airlines with the lowest arrival delay using `flights.groupby('AIRLINE').mean(numeric_only=1)['ARRIVAL_DELAY'].sort_values().head(5)`.
+![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/9ba313e8-af80-4b34-9068-b2489c4a45dc)
 
-8. **Seaborn Dataset:**
+
+3. **Penguins Dataset:**
    - Explore 'penguins' dataset for visualization with seaborn's functions.
-
-
-
+   - Create a displot to visualize 'flipper_length_mm' with hue 'island' and column 'species' using `sns.displot(data=penguins, x="flipper_length_mm", hue="island", col="species")`.
+![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/586fc8ab-9357-4df0-a3bf-abf65612fc7c)
+    - Generate a pairplot for the penguins dataset using `sns.pairplot(data=penguins)`
+![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/391413ce-cba1-426d-9196-13b25add7be3)
 
 
 
