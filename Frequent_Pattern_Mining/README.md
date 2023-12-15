@@ -1,0 +1,1 @@
+# Frequent Patter Mining README
