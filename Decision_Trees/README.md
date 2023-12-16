@@ -9,7 +9,7 @@
 
 ## Decision_Trees_RF
 1. **Data exploration**
-   - Guess what columns are valuable and evaluate after training using `clf.feature_importances_` from confusion matrix choose `['pregnant', 'insulin', 'bmi', 'age','glucose','bp','pedigree']`
+   - Choose features and evaluate after training using `clf.feature_importances_` from confusion matrix choose `['pregnant', 'insulin', 'bmi', 'age','glucose','bp','pedigree']`
 ![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/97236d82-704e-4bf2-8d7e-406028e89158)
 2. **DecisionTreeClassifier**
    - Train DTC on Training data, Evaluate using Testing Data `Accuracy:  0.7705627705627706`
@@ -25,9 +25,17 @@
   <img src="https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/713c485f-3aad-46c7-b455-a039e529768a" width="300" />
 </p>
 
-
 4. **Tree Visualization**
    - We see that `'Glucose'` is at the root node. This confirms from our evaluation that Glucose is the most important feature.
 ![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/f9e8cb1d-d8a2-4451-8350-0b10b694cab2)
+
+5. **BaggingClassifier, RandomForestClassifier, AdaBoostClassifier**
+   - Compare the performance of BC, RTC, and Ada to DTC. Random Forest is the highest with an accuracy of 0.79%
+<p float="left">
+  <img src="https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/e91f305d-dbb1-4c5e-9e6e-42a0804dec56" width="300" />
+  <img src="https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/5cfe224f-2b8e-4e8a-8237-ebf0dcfb3fdf" width="300" />
+  <img src="https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/0ca4094f-ea3b-42c1-a0b7-b638cee7651a" width="300" />
+</p>
+
 
 
