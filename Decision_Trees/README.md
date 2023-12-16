@@ -15,6 +15,10 @@
    - Train DTC on Training data, Evaluate using Testing Data `Accuracy:  0.7705627705627706`
      ![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/768fb8ff-63dc-4f3f-90bc-af4ae9683a4f)
 3. **Evaluate Model**
+   - Display Confusion matrix, ROC Curve, and Precision-Recall curve
+   - Find out how the features we picked in the beginning performed using `clf.feature_importances_`
+   -  `array([0.0556187 , 0.        , 0.24307412, 0.12486261, 0.4409249 ,
+       0.02471295, 0.11080672])`
 <p float="left">
   <img src="https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/a805323d-b6c5-4b77-a3f0-4327a9d8c560" width="300" />
   <img src="https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/cdfb8d2c-c8fe-467a-a77c-82d4214616fa" width="300" />
