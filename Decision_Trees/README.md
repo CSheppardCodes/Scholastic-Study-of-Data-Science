@@ -8,7 +8,7 @@
    ![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/94b7efd7-323f-4217-b3d1-101b3679e475)
 
 ## Decision_Trees_RF
-1. **Data exploration**
+1. **Data exploration: Pima Diabetes**
    - Choose features and evaluate after training using `clf.feature_importances_` from confusion matrix choose `['pregnant', 'insulin', 'bmi', 'age','glucose','bp','pedigree']`
 ![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/97236d82-704e-4bf2-8d7e-406028e89158)
 2. **DecisionTreeClassifier**
@@ -36,6 +36,9 @@
   <img src="https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/5cfe224f-2b8e-4e8a-8237-ebf0dcfb3fdf" width="300" />
   <img src="https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/0ca4094f-ea3b-42c1-a0b7-b638cee7651a" width="300" />
 </p>
+
+6. **Cuisine dataset**
+   to be continued. 1. show new dataset, 2. show matplotlib and graphvis tree, 3. show performance scores + graphs 4 side by side. 4. new section OpenGridCV. 5 explain that hp will come later. 
 
 
 
