@@ -16,13 +16,16 @@
      ![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/768fb8ff-63dc-4f3f-90bc-af4ae9683a4f)
 3. **Evaluate Model**
    - Display Confusion matrix, ROC Curve, and Precision-Recall curve
-   - Find out how the features we picked in the beginning performed using `clf.feature_importances_`
-   -  `array([0.0556187 , 0.        , 0.24307412, 0.12486261, 0.4409249 ,
-       0.02471295, 0.11080672])`
+   - Find out how the features we picked performed using `clf.feature_importances_`. **THIS IS VERY IMPORTANT**
+   - Glucose has the highest feature importance score of 0.4409249. Conversely, with a depth of 5, Insulin is never used to classify the label.
+   -  `array([0.0556187 , 0.        , 0.24307412, 0.12486261, 0.4409249 ,       0.02471295, 0.11080672])`
 <p float="left">
   <img src="https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/a805323d-b6c5-4b77-a3f0-4327a9d8c560" width="300" />
   <img src="https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/cdfb8d2c-c8fe-467a-a77c-82d4214616fa" width="300" />
   <img src="https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/713c485f-3aad-46c7-b455-a039e529768a" width="300" />
 </p>
+4. **Tree Visualization**
+   - We see that `'Glucose'` is at the root node. This confirms from our evaluation that Glucose is the most important feature.
+![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/f9e8cb1d-d8a2-4451-8350-0b10b694cab2)
 
 
