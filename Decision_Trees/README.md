@@ -24,6 +24,8 @@
   <img src="https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/cdfb8d2c-c8fe-467a-a77c-82d4214616fa" width="300" />
   <img src="https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/713c485f-3aad-46c7-b455-a039e529768a" width="300" />
 </p>
+
+
 4. **Tree Visualization**
    - We see that `'Glucose'` is at the root node. This confirms from our evaluation that Glucose is the most important feature.
 ![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/f9e8cb1d-d8a2-4451-8350-0b10b694cab2)
