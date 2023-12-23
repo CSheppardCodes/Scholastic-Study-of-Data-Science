@@ -95,4 +95,6 @@ Explore advanced techniques for improved accuracy, aiming for a target of 95%. F
 
 
 
-# Known errors: Colab link for image classification. File upload of .ipyng for +FLowers
+## Known errors: 
+Colab link for TensorFlowModifiedClassification.ipynb. File upload of TensorFlowModifiedTransferLearning+FLowers.ipynb
+
