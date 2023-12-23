@@ -44,14 +44,13 @@ The project involves the following major steps:
    - Splitting the data into training and testing sets.
    - Training the model on the training set.
    - Evaluating the model on the testing set.
-
-## Epoch 5/5:
-
-- **Training Loss:** 0.0149
-- **Training Categorical Accuracy:** 1.0000
-
-- **Validation Loss:** 0.1223
-- **Validation Categorical Accuracy:** 0.9706
+     
+   Epoch 5/5:
+   - **Training Loss:** 0.0149
+   - **Training Categorical Accuracy:** 1.0000
+   
+   - **Validation Loss:** 0.1223
+   - **Validation Categorical Accuracy:** 0.9706
 
 
 4. **Results Visualization:**
