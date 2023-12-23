@@ -91,3 +91,8 @@ This tutorial offers a streamlined approach to sentiment analysis using RNNs, em
 ## Next Steps
 
 Explore advanced techniques for improved accuracy, aiming for a target of 95%. For more details, refer to the [MLCC Text Classification Guide](#) and other TFHub text-related tutorials.
+
+
+
+
+# Known errors: Colab link for image classification. File upload of .ipyng for +FLowers
