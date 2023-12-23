@@ -48,6 +48,15 @@ This concise tutorial guides you through text classification using transfer lear
 
 ## Results and Insights
 
+- Transfer learning simplifies text representation and provides a fixed-size output.
+- Model architecture decisions impact performance (e.g., number of layers, hidden units).
+- Binary crossentropy loss and Adam optimizer are effective for this binary classification task.
+
+## Next Steps
+
+Explore advanced techniques for improved accuracy, aiming for a target of 95%. For more details, refer to the [MLCC Text Classification Guide](#) and other TFHub text-related tutorials.
+
+
 
 # Sentiment Analysis with RNNs
 
