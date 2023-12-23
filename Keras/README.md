@@ -37,15 +37,26 @@ The project involves the following major steps:
 
 2. **Model Building:**
    - Implementing a Convolutional Neural Network (CNN) for image classification.
-   - Using the VGG16 architecture and InceptionV3 for feature extraction.
+   - Used **mobilenet_v3_large_100_224** from TensorFlow Hub for feature extraction.
+![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/599ce41c-f971-4157-81e1-107876e5f0a4)
 
 3. **Training:**
    - Splitting the data into training and testing sets.
    - Training the model on the training set.
    - Evaluating the model on the testing set.
 
+## Epoch 5/5:
+
+- **Training Loss:** 0.0149
+- **Training Categorical Accuracy:** 1.0000
+
+- **Validation Loss:** 0.1223
+- **Validation Categorical Accuracy:** 0.9706
+
+
 4. **Results Visualization:**
    - Displaying sample images and their corresponding predictions.
+![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/26cf6568-5ae7-44b2-81c0-2a436d8088a0)
 
 ## Environment Setup
 
