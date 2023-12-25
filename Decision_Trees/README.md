@@ -38,6 +38,19 @@
 </p>
 
 6. **Cuisine dataset**
+   - [cuisines.csv]("https://an-utd-python.s3.us-west-1.amazonaws.com/cuisines.csv") **Content:** Culinary ingredient information from Indian, Thai, Chinese, Japanese, Korean Cuisines
+   - **Models: Decision Tree Classifier & Random Forest Classifier:** 
+   - **GridSearchCV:** Tuned Decision Tree hyperparameters 'max_depth': 9, 'min_samples_leaf': 3 for a 17.54% increase in accuracy
+   ![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/6faa89d4-5df5-4faf-8ea2-4c20cbea3840)
+
+
+   
+   
+   
+   
+   
+   
+
    to be continued. 1. show new dataset, 2. show matplotlib and graphvis tree, 3. show performance scores + graphs 4 side by side. 4. new section OpenGridCV. 5 explain that hp will come later. 
 
 
