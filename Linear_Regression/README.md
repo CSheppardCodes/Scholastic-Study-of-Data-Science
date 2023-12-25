@@ -1,6 +1,6 @@
 # Linear Regression readme
 
-# Part 1: StatsModelsAPI
+# Part 2: StatsModelsAPI
 ## Building a Regression Model to Analyze the California Housing Dataset 
  
 ## Dataset Overview:
@@ -36,4 +36,32 @@
 - Identified statistically significant features: MedInc, AveRooms, HouseAge, Latitude, Longitude.
 - Noted low correlation doesn't imply less statistical significance.
 ![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/36697695-cec1-4b05-a492-920917c89267)
+
+
+# Part 3: Online News Popularity Prediction
+
+## Dataset
+- **Source:** UCI Machine Learning Repository
+- **Features:** Online news attributes
+- **Target:** Number of shares
+
+## Algorithm
+- **Model:** SKLearn Stochastic Gradient Descent Regressor (SGD)
+  - **Objective:** Predict online news popularity
+  - **Libraries:** Pandas, Matplotlib, Seaborn, Scikit-learn, Statsmodels
+
+## Data Preprocessing
+- Load dataset, drop non-predictive columns, check for missing values, analyze data distribution
+- Standardize features with Scikit-learn's StandardScaler
+
+## Exploratory Data Analysis
+- Correlation analysis to identify key features
+
+## Model Training and Evaluation
+- Train SGD Regressor with varied configurations
+- Evaluate using RMSE and R-squared on training/testing datasets
+
+## Results and Insights
+- OLS regression for in-depth analysis
+![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/43cbb301-ba8b-4888-9cd8-59e8d7393551)
 
