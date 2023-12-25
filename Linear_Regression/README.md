@@ -1,5 +1,37 @@
 # Linear Regression readme
 
+# Part 1: Abalone Age Prediction
+
+## Dataset
+- UCI Machine Learning Repository [Abalone Dataset](https://raw.githubusercontent.com/CSheppardCodes/MLDatasetsUCI/main/abalone/abalone.data)
+- Attributes include Length, Diameter, Height, Whole weight, Shucked weight, Viscera weight, Shell weight, and Sex.
+- Target variable: Rings (interpreted as abalone age).
+
+## Data Preprocessing
+- One-hot encoding for categorical variable 'Sex'.
+  
+## Exploratory Data Analysis (EDA)
+- Correlation analysis identifies features correlated with 'Rings'.
+
+## Algorithm
+- Stochastic Gradient Descent Regressor (SGD) for age prediction.
+
+## Model Training and Evaluation
+- Standardization of features.
+- Train-test split: 80-20.
+- SGD Regressor performance:
+  - Training Set: RMSE = 2.18, R2 = 0.54
+  - Testing Set: RMSE = 2.33, R2 = 0.49.
+
+## Ordinary Least Squares (OLS) Regression
+- In-depth analysis using Statsmodels OLS:
+  - R-squared: 0.548.
+  - Significant feature contributions: Whole weight, Shucked weight, Sex_F, Sex_I, Sex_M.
+  - Multicollinearity issues indicated.
+
+
+
+
 # Part 2: StatsModelsAPI
 ## Building a Regression Model to Analyze the California Housing Dataset 
  
