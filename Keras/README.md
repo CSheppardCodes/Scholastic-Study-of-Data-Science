@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project focuses on the classification of different monkey species using convolutional neural networks (CNNs). The dataset consists of images of various monkey species, and the goal is to build a model capable of accurately classifying these species based on their images.
+This is my personal project focused on the classification of different monkey species using convolutional neural networks (CNNs). The dataset consists of images of various monkey species, and the goal is to build a model capable of accurately classifying these species based on their images.
 
 ## Dataset
 
