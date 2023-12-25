@@ -1,6 +1,6 @@
 # Frequent Patter Mining README
 
-## Part 1 Introduction:
+# Part 1: Introduction to the Apriori algorithm:
 - Association rule mining using the Apriori algorithm.
 - Objective: Reveal meaningful patterns and associations in a transaction dataset.
 
@@ -23,7 +23,12 @@
 ![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/da36c916-b5b2-4b61-abac-bf24a99e8d48)
 
 
-# Part 2. Analyzing Online Retail Data Using Apriori Algorithm
+
+
+
+
+
+# Part 2: Analyzing Online Retail Data Using Apriori Algorithm
 
 ## Dataset Overview:
 - **Source:** UCI Machine Learning Repository
@@ -53,3 +58,35 @@
 ## Conclusion:
 - **Objective:** Uncovered patterns and associations in online retail transactions.
 - **Significance:** This analysis can aid in understanding customer behaviors, optimizing inventory, and driving targeted marketing strategies.
+
+
+
+# Part 3: Analyzing MovieLens 100K Dataset Using Apriori Algorithm
+
+## Dataset Overview:
+- **Source:** MovieLens 100K
+- **Files:** movies.csv, ratings.csv
+- **Description:** The dataset contains movie information (title, genres) and user ratings, offering insights into user preferences and movie characteristics.
+
+## Data Processing:
+- **Libraries Used:** Pandas
+- **Procedure:** Movies and ratings data were loaded, merged based on movieId, and transformed for Apriori algorithm compatibility.
+
+## Apriori Algorithm and Association Rules:
+- **Libraries Used:** MLxtend
+- **Procedure:** Applied Apriori algorithm to discover frequent itemsets and association rules, utilizing a subset due to memory constraints.
+
+## Results and Insights:
+- **Frequent Itemsets:** Extracted significant itemsets with support.
+- **Example Itemsets:**
+  1. Ace Ventura: Pet Detective (1994) - Support: 25.5%
+  2. Aladdin (1992) - Support: 28.8%
+  3. Alien (1979) - Support: 18.8%
+  4. Aliens (1986) - Support: 16.9%
+  5. American Beauty (1999) - Support: 27.1%
+
+## Conclusion:
+- **Objective:** Uncovered patterns and associations in user movie preferences.
+- **Significance:** Analysis guides recommendations, improves user experience, and aids targeted content delivery.
+
+**Note:** Interpret results using domain knowledge about movies for validation.
