@@ -1,8 +1,8 @@
 # Linear Regression readme
 
 # Part 1: StatsModelsAPI
-## Analyzing the California Housing Dataset and Building a Regression Model
-
+## Building a Regression Model to Analyze the California Housing Dataset 
+ 
 ## Dataset Overview:
 - **Source:** California Housing dataset
     `MedInc | HouseAge | AveRooms | AveBedrms | Population | AveOccup | Latitude | Longitude`
