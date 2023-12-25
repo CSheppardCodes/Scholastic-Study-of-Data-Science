@@ -20,14 +20,6 @@
 - Minimum support threshold: 60%
 - Revealed frequent itemsets, combinations, and association rules.
 
-![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/da36c916-b5b2-4b61-abac-bf24a99e8d48)
-
-
-
-
-
-
-
 # Part 2: Analyzing Online Retail Data Using Apriori Algorithm
 
 ## Dataset Overview:
