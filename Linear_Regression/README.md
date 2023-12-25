@@ -31,8 +31,9 @@
   - RMSE: 0.738
   - R2 Score: 0.606
 
-## In-Depth Diagnostics:
+## In-Depth Diagnostics using StatsModels:
 - Utilized Statsmodels for detailed diagnostics, including coefficients, t-values, and confidence intervals.
 - Identified statistically significant features: MedInc, AveRooms, HouseAge, Latitude, Longitude.
 - Noted low correlation doesn't imply less statistical significance.
+![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/36697695-cec1-4b05-a492-920917c89267)
 
