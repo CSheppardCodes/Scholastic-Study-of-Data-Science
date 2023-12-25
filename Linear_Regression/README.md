@@ -6,12 +6,13 @@
 - UCI Machine Learning Repository [Abalone Dataset](https://raw.githubusercontent.com/CSheppardCodes/MLDatasetsUCI/main/abalone/abalone.data)
 - Attributes include Length, Diameter, Height, Whole weight, Shucked weight, Viscera weight, Shell weight, and Sex.
 - Target variable: Rings (interpreted as abalone age).
-
+![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/342d8963-2932-460e-bac2-d111aa755935)
 ## Data Preprocessing
 - One-hot encoding for categorical variable 'Sex'.
   
 ## Exploratory Data Analysis (EDA)
 - Correlation analysis identifies features correlated with 'Rings'.
+![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/207b468e-e8af-4412-9da6-6d6241efaea4)
 
 ## Algorithm
 - Stochastic Gradient Descent Regressor (SGD) for age prediction.
@@ -28,6 +29,7 @@
   - R-squared: 0.548.
   - Significant feature contributions: Whole weight, Shucked weight, Sex_F, Sex_I, Sex_M.
   - Multicollinearity issues indicated.
+![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/fb70aabb-d3ec-4499-9200-ed8159aae835)
 
 
 
