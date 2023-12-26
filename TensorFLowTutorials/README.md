@@ -93,8 +93,31 @@ This tutorial offers a streamlined approach to sentiment analysis using RNNs, em
 Explore advanced techniques for improved accuracy, aiming for a target of 95%. For more details, refer to the [MLCC Text Classification Guide](#) and other TFHub text-related tutorials.
 
 
+# TensorFlow Hub Transfer Learning
 
+1. **Prerequisites:**
+  - Essential libraries: NumPy, PIL, Matplotlib, TensorFlow, TensorFlow Hub, Datetime.
 
-## Known errors: 
-Colab link for TensorFlowModifiedClassification.ipynb. File upload of TensorFlowModifiedTransferLearning+FLowers.ipynb
+2. **Image Classification:**
+  - Utilize pre-trained ImageNet classifiers (e.g., MobileNetV2, InceptionV3).
+  - *Single Image Evaluation:* Download and predict using pre-trained models.
+
+3. **Simple Transfer Learning:**
+   -  *Custom Classifier with Flowers Dataset:* Load and preprocess data efficiently.
+   -  *Data Preprocessing:* Normalize input data for enhanced training.
+   -   Batch Image Classification:* Train on custom dataset, visualize predictions.
+
+4. **Transfer Learning with Custom Classifier:**
+   - *Feature Extraction:* Construct a headless model for efficient transfer learning.
+   - *Classification Head Integration:* Complete the transfer learning model.
+   - *Model Training:* Compile, train, and monitor with TensorBoard.
+   - *TensorBoard Visualization:* Utilize TensorBoard for detailed progress.
+
+5. **Model Evaluation and Export:**
+   - *Predictive Analysis:* Evaluate and visualize batch predictions.
+   - *Model Export and Reload:* Persist the model for future use.
+
+# Conclusion
+
+This tutorial highlights TensorFlow Hub's efficiency in transfer learning for image classification. It guides users through essential steps, from model customization to efficient training and evaluation, showcasing TensorFlow Hub's diverse applications.
 
