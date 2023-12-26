@@ -100,22 +100,22 @@ Explore advanced techniques for improved accuracy, aiming for a target of 95%. F
 
 2. **Image Classification:**
    -  Utilize pre-trained ImageNet classifiers (e.g., MobileNetV2, InceptionV3).
-   -  *Single Image Evaluation:* Download and predict using pre-trained models.
+   -  **Single Image Evaluation:** Download and predict using pre-trained models.
 
 3. **Simple Transfer Learning:**
-   -  *Custom Classifier with Flowers Dataset:* Load and preprocess data efficiently.
-   -  *Data Preprocessing:* Normalize input data for enhanced training.
-   -   Batch Image Classification:* Train on custom dataset, visualize predictions.
+   -  **Custom Classifier with Flowers Dataset:** Load and preprocess data efficiently.
+   -  **Data Preprocessing:** Normalize input data for enhanced training.
+   -  **Batch Image Classification:** Train on custom dataset, visualize predictions.
 
 4. **Transfer Learning with Custom Classifier:**
-   - *Feature Extraction:* Construct a headless model for efficient transfer learning.
-   - *Classification Head Integration:* Complete the transfer learning model.
-   - *Model Training:* Compile, train, and monitor with TensorBoard.
-   - *TensorBoard Visualization:* Utilize TensorBoard for detailed progress.
+   - **Feature Extraction:** Construct a headless model for efficient transfer learning.
+   - **Classification Head Integration:** Complete the transfer learning model.
+   - **Model Training:** Compile, train, and monitor with TensorBoard.
+   - **TensorBoard Visualization:** Utilize TensorBoard for detailed progress.
 
 5. **Model Evaluation and Export:**
-   - *Predictive Analysis:* Evaluate and visualize batch predictions.
-   - *Model Export and Reload:* Persist the model for future use.
+   - **Predictive Analysis:** Evaluate and visualize batch predictions.
+   - **Model Export and Reload:** Persist the model for future use.
 
 # Conclusion
 
