@@ -112,10 +112,12 @@ Explore advanced techniques for improved accuracy, aiming for a target of 95%. F
    - **Classification Head Integration:** Complete the transfer learning model.
    - **Model Training:** Compile, train, and monitor with TensorBoard.
    - **TensorBoard Visualization:** Utilize TensorBoard for detailed progress.
+      ![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/2312c1c2-ab55-4b5d-9a8c-30cfa608518e)
 
 5. **Model Evaluation and Export:**
    - **Predictive Analysis:** Evaluate and visualize batch predictions.
    - **Model Export and Reload:** Persist the model for future use.
+![image](https://github.com/CSheppardCodes/Study-of-Data-Science/assets/78242653/b1fd8216-f5b8-4b11-9094-3aa4f7348776)
 
 # Conclusion
 
