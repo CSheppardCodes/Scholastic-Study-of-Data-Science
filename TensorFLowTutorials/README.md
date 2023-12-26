@@ -96,11 +96,11 @@ Explore advanced techniques for improved accuracy, aiming for a target of 95%. F
 # TensorFlow Hub Transfer Learning
 
 1. **Prerequisites:**
-  - Essential libraries: NumPy, PIL, Matplotlib, TensorFlow, TensorFlow Hub, Datetime.
+   -  Essential libraries: NumPy, PIL, Matplotlib, TensorFlow, TensorFlow Hub, Datetime.
 
 2. **Image Classification:**
-  - Utilize pre-trained ImageNet classifiers (e.g., MobileNetV2, InceptionV3).
-  - *Single Image Evaluation:* Download and predict using pre-trained models.
+   -  Utilize pre-trained ImageNet classifiers (e.g., MobileNetV2, InceptionV3).
+   -  *Single Image Evaluation:* Download and predict using pre-trained models.
 
 3. **Simple Transfer Learning:**
    -  *Custom Classifier with Flowers Dataset:* Load and preprocess data efficiently.
